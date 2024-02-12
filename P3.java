@@ -3,7 +3,6 @@ overloaded constructor.
 volume:
     cuboid = lbh
     cube = a*a*a
-    cylinder = pi*r*r*h
 */
 
 import java.util.Scanner;
@@ -18,16 +17,12 @@ public class P3 {
         double ans = l*l*l;
         System.out.println("The volume of cube is:"+ans);
     }
-    public P3(double r,double h){
-        double ans = pi * r * r * h; 
-        System.out.println("The volume of cylinder is:"+ans);
-    }
     public static void main(String[] args) {
         System.out.println("220130318033");
         System.out.println("Purohit Akruti K.");
 
         Scanner sc = new Scanner(System.in);
-        double l,b,h,r;
+        double l,b,h;
         
         System.out.print("Enter the value of l:");
         l = sc.nextDouble();
@@ -38,14 +33,10 @@ public class P3 {
         System.out.print("Enter the value of h:");
         h = sc.nextDouble();
 
-        System.out.print("Enter the value of r:");
-        r = sc.nextDouble();
-
         P3 o1 = new P3(l,b,h);
         P3 o2 = new P3(l);
-        P3 o3 = new P3(r,h);
 
-        System.out.println(o1+" "+o2+" "+o3);
+        System.out.println(o1+" "+o2);
 
         sc.close();
     }
@@ -59,6 +50,5 @@ Enter the value of h:6.23
 Enter the value of r:7.3
 The volume of cuboid is:137.06
 The volume of cube is:64.0
-The volume of cylinder is:1042.469638
 P3@3cda1055 P3@7a5d012c P3@3fb6a447
 */
