@@ -50,3 +50,15 @@ public class P3 {
         sc.close();
     }
 }
+
+/* java -cp /tmp/XS03kx6X7z P3
+220130318033
+Purohit Akruti K.Enter the value of l:4
+Enter the value of b:5.5
+Enter the value of h:6.23
+Enter the value of r:7.3
+The volume of cuboid is:137.06
+The volume of cube is:64.0
+The volume of cylinder is:1042.469638
+P3@3cda1055 P3@7a5d012c P3@3fb6a447
+*/
