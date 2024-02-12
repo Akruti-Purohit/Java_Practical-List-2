@@ -18,3 +18,12 @@ public class P1 {
     }
 }
 
+/* Output 
+java -cp /tmp/7tN1xFXiei HelloWorld
+220130318033
+Purohit Akruti K.
+Enter your name:Akruti
+Hello Akruti
+The address of o is:HelloWorld@48140564
+*/
+
