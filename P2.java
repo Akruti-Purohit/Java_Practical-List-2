@@ -22,3 +22,13 @@ public class P2 {
 
     }
 }
+
+/*Output
+java -cp /tmp/7tN1xFXiei HelloWorld
+220130318033
+Purohit Akruti K.
+Enter two number:
+23
+56
+The sum of n1 and n2 is:79
+ */
