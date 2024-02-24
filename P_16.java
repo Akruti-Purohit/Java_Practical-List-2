@@ -30,3 +30,13 @@ public class P_16 {
         sc.close();
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter your name: Akruti
+Enter your age: 17
+Enter your favorite color: Red
+Hello, my name is Akruti. I am 17 years old and my favorite color is Red.
+ */
