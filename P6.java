@@ -31,3 +31,16 @@ public class P6 {
         o1.getter(o1);
     }
 }
+/*
+Output::
+
+220130318033
+Purohit Akruti K.
+Enter your age:
+17
+Enter your name:
+Akruti
+Your age is:17
+Your name is:Akruti
+
+ */
