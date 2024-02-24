@@ -39,3 +39,18 @@ public class P_11 {
 
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter your name:
+Akruti Purohit
+Enter your address:
+Joshipara Junagadh 
+Enter your age:
+17
+Your name is:Akruti Purohit
+Your age is:17
+Your address is:Joshipara Junagadh
+ */
