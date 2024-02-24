@@ -38,3 +38,17 @@ public class P9 {
         sc.close();
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter your name:
+Akruti
+Enter your age:
+17
+Your name is:Akruti
+Your name is:17
+Your name is:Akruti
+Your name is:17
+ */
