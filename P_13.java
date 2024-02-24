@@ -43,3 +43,16 @@ public class P_13 {
 
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter your name:
+Akruti Purohit
+Enter your address:
+Joshipara Junagadh
+Enter your age:
+17
+Hi, my name is Akruti Purohit. I am 17 years old and I live at Joshipara Junagadh.
+ */
