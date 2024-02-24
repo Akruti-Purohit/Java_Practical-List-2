@@ -3,15 +3,25 @@
 printing out the wrapped value. Also, parse the String “20”
 into an int and print out the parsed value. */
 
-import java.util.Scanner;
-
 public class P_15 {
         public static void main(String[] args) {
         System.out.println("220130318033");
         System.out.println("Purohit Akruti K.");
 
-        Scanner sc = new Scanner(System.in);
+        // Creating a variable num of type int
+        int num = 10;
 
-        sc.close();
+        // Wrapping the int variable num with the Integer class
+        Integer wrappedNum = Integer.valueOf(num);
+
+        // Printing out the wrapped value
+        System.out.println("Wrapped value: " + wrappedNum);
+
+        // Parsing the String "20" into an int
+        String strNum = "20";
+        int parsedNum = Integer.parseInt(strNum);
+
+        // Printing out the parsed value
+        System.out.println("Parsed value: " + parsedNum);
     }
 }
