@@ -52,3 +52,17 @@ public class P_12 {
         sc.close();
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter a number:
+14
+Enter a number:
+6
+Addition: 20
+Subtraction: 8
+Multiplication: 84
+Division: 2.3333333333333335
+ */
