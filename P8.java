@@ -73,3 +73,16 @@ class Acc{
         }
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter your name:Akruti
+Enter your account number:220130318033
+Enter your account type:saving
+Enter your existing balance:25000
+Enter the amount you want to deposit in your account:97000
+Your name is:Akruti
+Your bank balance is:122000
+ */
