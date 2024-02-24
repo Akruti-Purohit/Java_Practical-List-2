@@ -25,3 +25,9 @@ public class P4 {
     }
     
 }
+/*
+ Output::
+Purohit Akruti K.
+Enter the radius:4.6
+The area of circle is:66.44239999999999
+ */
