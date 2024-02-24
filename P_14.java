@@ -9,12 +9,32 @@ temperature. */
 
 import java.util.Scanner;
 
+class TempratureConverter{
+    public double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+
+    public double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9 / 5) + 32;
+    }
+}
 public class P_14 {
         public static void main(String[] args) {
         System.out.println("220130318033");
         System.out.println("Purohit Akruti K.");
 
         Scanner sc = new Scanner(System.in);
+
+        TempratureConverter converter = new TempratureConverter();
+        System.out.println("Enter tempratur in ferenheit:");
+        double fahrenheit = sc.nextDouble();
+        double celsius = converter.fahrenheitToCelsius(fahrenheit);
+        System.out.printf("%.2f Fahrenheit is equal to %.2f Celsius.\n", fahrenheit, celsius);
+
+        System.out.println("Enter tempratur in celsius:");
+        celsius = sc.nextDouble();
+        fahrenheit = converter.celsiusToFahrenheit(celsius);
+        System.out.printf("%.2f Celsius is equal to %.2f Fahrenheit.\n", celsius, fahrenheit);
 
         sc.close();
     }
