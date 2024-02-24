@@ -25,3 +25,11 @@ public class P_15 {
         System.out.println("Parsed value: " + parsedNum);
     }
 }
+
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Wrapped value: 10
+Parsed value: 20
+ */
