@@ -39,3 +39,14 @@ public class P_14 {
         sc.close();
     }
 }
+
+/*
+Output::
+Purohit Akruti K.
+Enter tempratur in ferenheit:
+98.6
+98.60 Fahrenheit is equal to 37.00 Celsius.
+Enter tempratur in celsius:
+37.89
+37.89 Celsius is equal to 100.20 Fahrenheit.
+ */
