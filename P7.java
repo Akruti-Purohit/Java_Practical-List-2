@@ -37,3 +37,14 @@ public class P7 {
         sc.close();
     }
 }
+/*
+Output::
+220130318033
+Purohit Akruti K.
+Enter the length:
+13
+Enter the breath:
+54
+The area of rectangle is:702.0
+The area of square is:169.0
+ */
