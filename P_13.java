@@ -11,13 +11,35 @@ formatted string. */
 
 import java.util.Scanner;
 
+class Person3{
+    String name;
+    int age;
+    String adres;
+
+    void getter(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        name = sc.nextLine();
+        System.out.println("Enter your address:");
+        adres = sc.nextLine();
+        System.out.println("Enter your age:");
+        age = sc.nextInt();
+
+        sc.close();
+    }
+
+    void introduce(){
+        System.out.printf("Hi, my name is %s. I am %d years old and I live at %s.\n", name, age, adres);
+    }
+}
 public class P_13 {
         public static void main(String[] args) {
         System.out.println("220130318033");
         System.out.println("Purohit Akruti K.");
 
-        Scanner sc = new Scanner(System.in);
+        Person3 p3 = new Person3();
+        p3.getter();
+        p3.introduce();
 
-        sc.close();
     }
 }
